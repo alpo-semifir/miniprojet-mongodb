@@ -32,4 +32,5 @@ app.use(express.json());
 // Maintenant que express est lancé, on lui dit de découvrir les routes
 app.use('/api', routes)
 
+// On précise que l'app écoute le port 3000 de la machine
 app.listen(3000, () => console.log("Server listening at port 3000"));
